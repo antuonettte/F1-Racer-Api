@@ -1,0 +1,17 @@
+header {
+    margin-bottom: 35px
+}
+
+.test{
+    background-color: lightblue;
+}
+
+.roundBorder{
+    border-radius: 30px;
+}
+
+body{
+    background-image: url(../images/f1.jpg);
+    background-size: cover;
+}
+

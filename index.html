@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>F1 Race Info</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./Static/images/facivon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/main.css">
+</head>
+
+<body>
+
+    <header>
+    </header>
+
+
+
+    <main class="container">
+
+        <div class="row">
+            <div class="col-md-8 mx-auto mt-5 roundBorder test px-2 py-2">
+                <form class="form-inline d-flex justify-content-between" method='GET' id="loadRace">
+                    <input type="text" id="season" class="form-control form-control-lg roundBorder" required='required' placeholder="Enter race season">
+                    <input type="text" id="round" class="form-control form-control-lg roundBorder" required='required' placeholder="Enter round">
+                    <input type="submit" class="btn btn-primary roundBorder" value="Load race info">
+                </form>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-8 mx-auto test roundBorder">
+                <table class="table mt-3">
+                    <thead>
+                        <tr>
+                            <th scope="col">Position</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Nationality</th>
+                            <th scope="col">Sponsor</th>
+                            <th scope="col">Points</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tBody">
+                        <tr>
+                            <!-- <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td> -->
+                        </tr>
+                        <tr>
+                            <!-- <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td> -->
+                        </tr>
+                        <tr>
+                            <!-- <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td> -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer></footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Always put your own custom scripts under all the under scripts -->
+    <script src="./Static/js/main.js"></script>
+</body>
+
+</html>
